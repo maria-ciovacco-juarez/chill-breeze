@@ -10,9 +10,9 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 -A couple issues I have not been able to resolve as of yet:
 
--The icon will not loop for all the forecast days except the first day.
+-The icon will not loop for all the forecast days. It only shows in the first box.
 
--The forecast for the current day is supposed to show in box #1. The information is incorrect. The box is only generating the forecast for the following day and always matching box #2.
+-The forecast for the current day is supposed to show in box #1. However, it is not doing so. It is generating the forecast for the following day and is always matching box #2.
 
 -I haven't been able to move my title and subtitle to the top of the page like I wanted to (aka "Chill Breeze" and "Check the forecast. We got you."). I assume it's an issue with the flexbox.
 

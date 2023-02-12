@@ -20,7 +20,7 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 # How to Run the Project
 
--To run the project, click on this deployed link ->
+-To run the project, you can either clone this repository to your terminal or git bash and open the files via VS CODE. Open the index.html, right click thr file and select "Open in Default Browser." Or, click on this deployed link ->
 
 -Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the expected forecast over the next few days.
 

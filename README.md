@@ -6,7 +6,7 @@ module 6 weather forecast application
 -This is a weather application I made with a weather API and JavaScript. 
 When you type in any city, it is supposed to give you the weather forecast for the current day as well as the expected forecast over the next five days. 
 
--For the layout, I watched a tutorial by Jonah Lawrence on Youtube (link will be in the credits section) to get started. I had additional assistance with a tutor to get a "for loop" going, which showed to be probably the most challenging at the time.
+-For the layout and base code, I watched a tutorial by Jonah Lawrence on Youtube (link will be in the credits section) to get started. I had additional assistance with a tuotr to get a "for loop" going, which showed to be probably the most challenging at the time.
 
 -A couple issues I have not been able to resolve as of yet:
 
@@ -22,4 +22,10 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 -To run the project, click on this deployed link ->
 
--Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the forecast. 
+-Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the forecast.
+
+-To view a demonstration, click the Google Drive link -> https://drive.google.com/file/d/103Qzb5pFYUyDlVpYKPYr7jZFj6ulQHBp/view
+
+# Credits
+
+-As stated before, the tutorial I watched was done by Jonah Lawrence https://www.youtube.com/watch?v=WZNG8UomjSI&ab_channel=JonahLawrence%E2%80%A2DevProTips and I had additional assistance with tutor Andres Jimenez.

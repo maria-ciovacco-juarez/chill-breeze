@@ -22,7 +22,7 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 -To run the project, click on this deployed link ->
 
--Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the forecast.
+-Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the expected forecast over the next few days.
 
 -To view a demonstration, click the Google Drive link -> https://drive.google.com/file/d/103Qzb5pFYUyDlVpYKPYr7jZFj6ulQHBp/view
 

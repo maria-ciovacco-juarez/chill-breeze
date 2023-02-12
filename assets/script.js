@@ -33,7 +33,9 @@ let weather = {
     console.log(date, name, icon, description, temp, humidity)
     // Need temperature and icon to show in all boxes
 
-    document.querySelector(".city").innerText = "Weather in " + name;
+    
+   
+    document.querySelector(".city").innerText = "What's the weather in " + name + "?";
     document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerHTML = "Clouds: " + description;
     document.querySelector(".temp").innerHTML = temp + "&#8457";
@@ -51,7 +53,7 @@ let weather = {
     }
     for (var i = 0; i < fiveDays.length; i++) {
       console.log(document.querySelector(`.humidity${i}`))
-      document.querySelector(`.humidity${i}`).innerHTML = "Humidity: " + fiveDays[i].main.humidity;
+      document.querySelector(`.humidity${i}`).innerHTML = "Humidity: " + fiveDays[i].main.humidity + "%";
     }
 
     for (var i = 0; i < fiveDays.length; i++) {
@@ -73,7 +75,6 @@ let weather = {
       console.log(document.querySelector(`.icon${i}`))
       document.querySelector(`.icon${i}`).innerHTML = fiveDays[i].list.icon;
     }
-
 
 
 

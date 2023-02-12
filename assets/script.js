@@ -1,12 +1,3 @@
-// GIVEN a weather dashboard with form inputs
-// WHEN I search for a city
-// THEN I am presented with current and future conditions for that city and that city is added to the search history
-// WHEN I view current weather conditions for that city
-// THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-// WHEN I view future weather conditions for that city
-// THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-// WHEN I click on a city in the search history
-// THEN I am again presented with current and future conditions for that city
 
 const searchHistory = JSON.parse(localStorage.getItem("searchHistory")) || []
 
@@ -31,10 +22,7 @@ let weather = {
     const { temp, humidity } = data.list[0].main;
     const { speed } = data.list[0].wind;
     console.log(date, name, icon, description, temp, humidity)
-    // Need temperature and icon to show in all boxes
-
-    
-   
+  
     document.querySelector(".city").innerText = "What's the weather in " + name + "?";
     document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
     document.querySelector(".description").innerHTML = "Clouds: " + description;
@@ -75,21 +63,6 @@ let weather = {
       console.log(document.querySelector(`.icon${i}`))
       document.querySelector(`.icon${i}`).innerHTML = fiveDays[i].list.icon;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   },
   search: function () {
     this.fetchWeather(document.querySelector(".search-bar").value);

@@ -26,6 +26,8 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 -To view a demonstration, click the Google Drive link -> https://drive.google.com/file/d/103Qzb5pFYUyDlVpYKPYr7jZFj6ulQHBp/view
 
+<img width="1493" alt="Screen Shot 2023-02-11 at 10 44 53 PM" src="https://user-images.githubusercontent.com/119270869/218293431-cb30501d-d3aa-4efa-8cbb-88769bb2b4ca.png">
+
 # Credits
 
 -As stated before, the tutorial I watched was done by Jonah Lawrence https://www.youtube.com/watch?v=WZNG8UomjSI&ab_channel=JonahLawrence%E2%80%A2DevProTips and I had additional assistance with tutor Andres Jimenez.

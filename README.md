@@ -8,6 +8,8 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 -For the layout and base code, I watched a tutorial by Jonah Lawrence on Youtube (link will be in the credits section) to get started. I had additional assistance with a tuotr to get a "for loop" going, which showed to be probably the most challenging at the time.
 
+-Another challenge I faced was the background image not populating in the deployed link. In VS Code Live Server, the image populated fine. After multiple attempts to fix this, I resulted to moving the image from the style.css stylesheet to the index.html and that seemed to work.
+
 -A couple issues I have not been able to resolve as of yet:
 
 -The icon will not loop for all the forecast days. It only shows in the first box.
@@ -20,7 +22,7 @@ When you type in any city, it is supposed to give you the weather forecast for t
 
 # How to Run the Project
 
--To run the project, you can either clone this repository to your terminal or git bash and open the files via VS CODE. Open the index.html, right click thr file and select "Open in Default Browser." Or, click on this deployed link ->
+-To run the project, you can either clone this repository to your terminal or git bash and open the files via VS CODE. Open the index.html, right click thr file and select "Open in Default Browser." Or, click on this deployed link -> https://mariaxisabelle.github.io/chill-breeze/
 
 -Once the application is running, you can type in any city you want check the forecast of. You can either click the magnifying class to enter, or press the 'enter' key. The cards will immediately populate the expected forecast over the next few days.
 
